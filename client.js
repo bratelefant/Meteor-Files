@@ -4,7 +4,7 @@ import { Meteor } from 'meteor/meteor';
 import { Cookies } from 'meteor/ostrio:cookies';
 import { check, Match } from 'meteor/check';
 import { UploadInstance } from './upload.js';
-import FilesCollectionCore from './core.js';
+import FilesCollectionCore from './core-client.js';
 import { formatFleURL, helpers } from './lib.js';
 
 const NOOP = () => { };
